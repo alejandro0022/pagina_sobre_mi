@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí</title>
+    <link rel="stylesheet" href="css/actividad-1.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <header>
+            <h1>Sobre mi.</h1>
+            <h2>Alejandro Josue Perez Perez</h2>
+        </header><hr>
+
+        <p> 
+            Descripcion: Mi nombre es Alejandro alias Maluma baby, tengo 18 años, me considero una persona amable 
+            me gusta compartir tiempo con mi familia, me gusta entrenar boxeo, en mis tiempos libres hago ejercicios
+            vivo con mi Mamá, mi Papá y mi hermana, soy de Venezuela y estoy en Colombia hace aproximadamente 9 años. 
+        </p>
+
+        
+        <div>
+            <label for="numero">Pon un Número:</label>
+            <input id="numero">
+            <div>
+                <p id="Resultado">Incorrecto, sigue intentando</p>
+            </div>
+        </div>
+
+        <div>
+            <label for="gusto">Selecciona uno de mis gustos:</label>
+            <select name="selecciona-gusto" id="gusto">
+                <option value="defecto">Selecciona</option>
+                <option value="boxeo">Boxeo</option>
+                <option value="serie">Serie</option>
+                <option value="moto">Moto</option>
+            </select>
+        </div>
+
+        <div>
+            
+            <div id="defecto" class="gusto" style="display: block;">
+                <h3>Mis Gustos</h3>
+                <h4>Elige una opción arriba</h4>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcAgrsRQ5dk3ovfwluDx3swDsTKvKbLwGWQkBP4P6lQA&s=10" alt="imagen aleatoria" width="250px">
+            </div>
+
+            
+            <div id="boxeo" class="gusto" style="display: none;">
+                <h3>Mi boxeador favorito es:</h3>
+                <h4>Isaac Cruz (El Pitbull)</h4>
+                <img id="gusto-boxeador" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyJoUMZWcu38rS5SHJX8AgIA3bSu-jhVQGsptuROhT_A&s=10" alt="pitbull" width="250px">
+            </div>
+
+            <div id="serie" class="gusto" style="display: none;">
+                <h3>Mi serie favorita es:</h3>
+                <h4>El mentalista</h4>
+                <img id="gusto-serie" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMJ1r0wEwZIjH3h1VNcd3XbzW4OTVA44FvJooXt230Xg&s=10" alt="patrick" width="250px">
+            </div>
+
+            <div id="moto" class="gusto" style="display: none;">
+                <h3>Mi moto favorita es:</h3>
+                <h4>Yamaha xj6</h4>
+                <img id="gusto-moto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxsOaFhEEH4iUdjQZ5VRmuxOD6UFuMohAmtmNY9Smpug&s=10" alt="yamaha" width="250px">
+            </div>
+        </div>
+
+        
+        <div class="seccion-mensaje">
+            <h3>Mensajito :D</h3>
+            <p>Presiona el boton para descubrir el mensaje</p>
+            <button type="button" id="boton-mensaje">Presioname</button>
+        </div>
+
+        <footer>
+            <hr>
+            <p>Alejandro Josue Pérez Pérez  |  Eso es todo sobre mí. Gracias por visitar mi página.</p>
+        </footer> 
+    </div>
+
+    <script src="js/actividad-1.js"></script>
+</body>
+</html>
